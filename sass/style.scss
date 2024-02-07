@@ -1,0 +1,13 @@
+@import './base/vars';
+@import './base/reset';
+@import './base/mixin';
+@import './blocks/header';
+@import './blocks/main-always';
+
+
+
+
+.container{
+    margin: auto;
+    max-width: 1300px;
+}

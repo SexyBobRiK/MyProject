@@ -1,0 +1,25 @@
+%flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+%button{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+@mixin button($w, $h, $bg-c, $color){
+    width: $w;
+    height: $h;
+    background-color: $bg-c;
+    color: $color; 
+}
+@mixin text($color, $ff, $fsize, $fstyle, $fw, $lh, $ls){
+    color: $color;
+    font-family: $ff;
+    font-size: $fsize;
+    font-style: $fstyle;
+    font-weight: $fw;
+    line-height: $lh;
+    letter-spacing: $ls;
+}

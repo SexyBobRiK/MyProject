@@ -1,0 +1,20 @@
+.header{
+    @extend %flex;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.header_nav--nav{
+    @extend %flex;
+    width: 500px;
+    a{
+        @include text($text-color, none, 16px, normal, 400, normal, none);
+        &:hover{
+            color: $fonts-color;
+        }
+    }
+}
+button{
+  @extend %button;
+  @include button(70px, 30px, $bt-bg-c, $bt-color)
+}
+
