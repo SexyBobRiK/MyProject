@@ -56,7 +56,7 @@ button {
   border: none;
 }
 
-.always_text--img, .always_text--bt_new, .always_main, .cicd_main--main, .header_nav--nav, .header {
+.developer_block, .always_text--img, .always_text--bt_new, .always_main, .cicd_main--main, .header_nav--nav, .header, .remote__icon {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -72,6 +72,52 @@ button {
 button {
   border: 1px solid black;
   border-radius: 10px;
+}
+
+.remote__title--text {
+  text-align: center;
+  color: black;
+  font-family: none;
+  font-size: 64px;
+  font-style: none;
+  font-weight: 900;
+  line-height: none;
+  letter-spacing: none;
+}
+
+.remoute__img {
+  margin: none;
+  padding: 40px 0 0 0;
+}
+
+.remote_block_footer {
+  width: 900px;
+  height: 188px;
+  margin: auto;
+  padding: none;
+}
+
+.remote__text {
+  margin: 30px 0 30px 0;
+  padding: none;
+}
+
+.remote__text--text {
+  text-align: center;
+  color: #999795;
+  font-family: none;
+  font-size: 27px;
+  font-style: none;
+  font-weight: 400;
+  line-height: none;
+  letter-spacing: none;
+}
+
+.remote__icon {
+  width: 430px;
+  height: none;
+  margin: auto;
+  padding: none;
 }
 
 .header {
@@ -99,7 +145,7 @@ button {
   width: 70px;
   height: 30px;
   background-color: black;
-  color: white;
+  color: #FFAE33;
 }
 
 .cicd_main {
@@ -132,6 +178,28 @@ button {
   letter-spacing: none;
   margin: 20px 0 20px 0;
   padding: none;
+}
+
+.cicd_main__bt {
+  margin: 155px 0 0 0;
+  padding: none;
+  border: none;
+}
+
+.cicd_bt_left {
+  width: 162px;
+  height: 32px;
+  background-color: #FFAE33;
+  color: black;
+  border: none;
+}
+
+.cicd_bt_rigth {
+  width: 146px;
+  height: 32px;
+  background-color: #FFB0AE;
+  color: black;
+  border: none;
 }
 
 .title_main {
@@ -185,7 +253,7 @@ button {
 .always_bt {
   width: 150px;
   height: 40px;
-  background-color: rgb(241, 148, 27);
+  background-color: #FFAE33;
   color: black;
   margin-bottom: 30px;
 }
@@ -200,6 +268,62 @@ button {
 
 .always_text--p {
   padding-bottom: 30px;
+}
+
+.developer_main {
+  margin: auto;
+  padding: 100px 0 0 0;
+}
+
+.developer_block {
+  margin: 50px 0 0 0;
+  padding: none;
+}
+
+.developer_title {
+  text-align: center;
+}
+
+.developer_title--text {
+  width: none;
+  height: 64px;
+  color: black;
+  font-family: none;
+  font-size: 48px;
+  font-style: none;
+  font-weight: 900;
+  line-height: none;
+  letter-spacing: none;
+}
+
+.developer_block--blockone {
+  width: 384px;
+  height: 248px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.dev--comm {
+  width: 336px;
+  height: none;
+  margin: auto;
+  padding: 50px 0 20px 0;
+}
+
+.dev--user {
+  margin: auto;
+  padding: none;
+  width: 336px;
+  height: none;
+}
+
+.dev--user {
+  display: flex;
+}
+
+.dev--user-text {
+  margin: none;
+  padding: 0 0 0 10px;
 }
 
 .container {

@@ -37,3 +37,7 @@
     line-height: $lh;
     letter-spacing: $ls;
 }
+@mixin block-dev($bg, $br){
+    background-color: $bg;
+    border-radius: $br;
+}

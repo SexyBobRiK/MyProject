@@ -8,9 +8,21 @@
     @include block(655px, none);
 }
 .cicd-textone{
-    @include text($text-color, none, 32px, none, 700, none, none)
+    @include text($text-color, none, 32px, none, 700, none, none);
 }
 .cicd-texttwo{
     @include text($fonts-color-two, none, 24px, none, 300, none, none);
-    @include mp(20px 0 20px 0, none)
+    @include mp(20px 0 20px 0, none);
+}
+.cicd_main__bt{
+    @include mp(155px 0 0 0, none);
+    border: none;
+}
+.cicd_bt_left{
+    @include button(162px, 32px, $bt-color, $text-color);
+    border: none;
+}
+.cicd_bt_rigth{
+    @include button(146px, 32px, $bt-color-red, $text-color);
+    border: none;
 }

@@ -1,0 +1,23 @@
+.remote__title--text{
+    text-align: center;
+    @include text($text-color, none, 64px, none, 900, none, none);
+}
+.remoute__img{
+    @include mp(none, 40px 0 0 0);
+}
+.remote_block_footer{
+    @include block(900px, 188px);
+    @include mp(auto, none);
+}
+.remote__text{
+    @include mp(30px 0 30px 0, none);
+}
+.remote__text--text{
+    text-align: center;
+    @include text($fonts-color-two, none, 27px, none, 400, none, none);
+}
+.remote__icon{
+    @extend %flex;
+    @include block(430px, none);
+    @include mp(auto, none);
+}

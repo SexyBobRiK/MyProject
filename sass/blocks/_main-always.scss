@@ -10,7 +10,7 @@
     padding: 25px 0 30px 0 ;
 }
 .always_bt{
-    @include button(150px, 40px, rgb(241, 148, 27), black);
+    @include button(150px, 40px, $bt-color, black);
     margin-bottom: 30px;
 }
 .always_text--bt_new{

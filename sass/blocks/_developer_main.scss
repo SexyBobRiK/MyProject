@@ -1,0 +1,33 @@
+.developer_main{
+    @include mp(auto, 100px 0 0 0);
+}
+.developer_block{
+    @extend %flex;
+    @include mp(50px 0 0 0, none);
+}
+.developer_title{
+    text-align: center;
+}
+.developer_title--text{
+    @include block(none, 64px);
+    @include text($text-color, none, 48px, none, 900, none, none);
+}
+.developer_block--blockone{
+    @include block(384px, 248px);
+    @include block-dev($bg-c-block, 20px);
+}
+.dev--comm{
+    @include block(336px, none);
+    @include mp(auto, 50px 0 20px 0);
+}
+
+.dev--user{
+    @include mp(auto, none);
+    @include block(336px, none);
+}
+.dev--user{
+    display: flex;
+}
+.dev--user-text{
+    @include mp(none, 0 0 0 10px);
+}
