@@ -1,0 +1,26 @@
+.always_main{
+    @extend %flex;
+    padding-top: 30px;
+}
+.always_text--text{
+    @include text($text-color, none, 86px, none, 900, none, none);
+}
+.always_text--text_p{
+    @include text($text-color, none, 24px, none, 100, none, none);
+    padding: 25px 0 30px 0 ;
+}
+.always_bt{
+    @include button(150px, 40px, rgb(241, 148, 27), black);
+    margin-bottom: 30px;
+}
+.always_text--bt_new{
+    @extend %flex;
+    width: 350px;
+}
+.always_text--img{
+    @extend %flex;
+    width: 120px;
+}
+.always_text--p{
+    padding-bottom: 30px;
+}

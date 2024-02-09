@@ -1,0 +1,16 @@
+.cicd_main{
+    @include block(none, 792px);
+}
+.cicd_main--main{
+    @extend %flex;
+}
+.cicd_main--main__text{
+    @include block(655px, none);
+}
+.cicd-textone{
+    @include text($text-color, none, 32px, none, 700, none, none)
+}
+.cicd-texttwo{
+    @include text($fonts-color-two, none, 24px, none, 300, none, none);
+    @include mp(20px 0 20px 0, none)
+}

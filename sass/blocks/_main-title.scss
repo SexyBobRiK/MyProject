@@ -1,0 +1,16 @@
+.title_main{
+    height: 572px;
+    @extend %flextitle;
+}
+.title--text{
+   text-align: center;
+   
+}
+#line-text{
+    text-decoration: line-through;
+    color: #999795;
+}
+.title--text{
+    @include text(black, none, 56px, none, 900, none, none)
+
+}

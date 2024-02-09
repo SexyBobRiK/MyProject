@@ -2,7 +2,10 @@
 @import './base/reset';
 @import './base/mixin';
 @import './blocks/header';
+@import './blocks/cicd_main';
+@import './blocks/main-title';
 @import './blocks/main-always';
+
 
 
 
@@ -10,4 +13,8 @@
 .container{
     margin: auto;
     max-width: 1300px;
+}
+
+body{
+    background-color: #f5f3f4;
 }

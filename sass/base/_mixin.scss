@@ -3,9 +3,23 @@
     justify-content: space-between;
     align-items: center;
 }
+%flextitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 %button{
     border: 1px solid black;
     border-radius: 10px;
+}
+@mixin block($w, $h){
+    width: $w;
+    height: $h;
+}
+@mixin mp($m, $p){
+    margin: $m;
+    padding: $p;
 }
 
 @mixin button($w, $h, $bg-c, $color){
